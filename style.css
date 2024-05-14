@@ -1,0 +1,173 @@
+.background{
+    background-image: url("4170974.jpg");
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.first > div:nth-child(1){
+    display: flex;
+    justify-content: right;
+    gap: 5%;
+    color: #ff7abc;
+    padding-right: 2%;
+    align-items: center;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+    
+}
+.ja,
+.ja2,
+.davai,
+dt,
+h3{
+    text-shadow: 1px 1px pink;
+}
+.first > div:nth-child(2){
+    max-height: 100rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 400%;
+    text-shadow: 2px 3px pink;
+    min-height: 26rem;
+}
+.skills{
+    padding: 0 5%;
+}
+body{
+    margin: 0;
+}
+.davai{
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    margin: 3% 0;
+}
+.prekrasnaia_ia img{
+    max-width: 40rem;
+    height: auto;
+}
+.prekrasnaia_ia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.ja{
+font-size: 300%;
+font-weight: bold;
+}
+.ja2{
+font-size: 150%;
+}
+.image_container{
+    display: flex;
+    justify-content: center;gap: 1%;
+}
+.image_container img{
+    max-width: 20%;
+    width: auto;
+    }
+    .image_container img:nth-child(2){
+        max-width: 35%;
+        width: auto;
+        }
+
+.skills-list {
+    margin: 0;
+    padding: 0;
+}.skills-list dt {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: left;
+}.level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #86c3fa;
+    border-radius: 8px;
+}.level div {
+    margin: 1px;
+    height: 12px;
+    background-color: #288be6;
+    border-radius: 6px;
+}
+ul{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+a{
+    color: #ff7abc;
+    text-decoration: none;
+}
+img{
+    border-radius: 5px;
+}
+
+@media screen and (max-width:500px) {
+    .davai {
+        display: flex;
+        justify-content: center;
+        font-size: 200%;
+        margin: 3% 0;
+    }
+    .prekrasnaia_ia img {
+        max-width: 15rem;
+        height: auto;
+    }
+    .ja {
+        font-size: 170%;
+        font-weight: bold;
+        text-align: center;
+    }
+    .image_container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .image_container img:nth-child(2) {
+        max-width: 70%;
+        width: auto;
+    }
+    li{
+        text-wrap: nowrap;
+    }
+    a {
+        color: #ff7abc;
+        text-decoration: none;
+        background: #fff;
+        padding: 7px;
+        border-radius: 3px;
+        border: 1px solid;
+        display: flex;
+        height: 14px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ja2{
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        list-style: none;
+        display: flex;
+        gap: 6%;
+        width: max-content;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        position: absolute;
+        transform: translate(-35%, 146px);
+    }
+}
