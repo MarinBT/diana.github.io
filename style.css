@@ -115,6 +115,16 @@ img{
 }
 
 @media screen and (max-width:500px) {
+    .first > div:nth-child(2) {
+    max-height: 100rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 320%;
+    text-shadow: 2px 3px pink;
+    min-height: 26rem;
+}
     .davai {
         display: flex;
         justify-content: center;
