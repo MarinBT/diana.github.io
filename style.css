@@ -192,7 +192,7 @@ img{
         flex-wrap: nowrap;
         flex-direction: row;
         position: absolute;
-        transform: translate(-35%, 146px);
+               transform: translate(-20%, 146px);
     }
 }
 *{
