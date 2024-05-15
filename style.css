@@ -117,14 +117,18 @@ img{
 }
 
 @media screen and (max-width:500px) {
-    .copyright {
-    position: absolute;
-    transform: translate(150px, -51px);
-    left: 0;
-    font-weight: bold;
-    margin-top: 10%;
-    text-shadow: 1px 1px pink;
-}
+       .copyright {
+        position: absolute;
+        align-self: end;
+        left: 0;
+        font-weight: bold;
+        margin-top: 10%;
+        text-shadow: 1px 1px pink;
+        display: flex !important;
+        bottom: -324% !important;
+        left: 42% !important;
+        width: fit-content;
+    }
     .first > div:nth-child(2) {
     max-height: 100rem;
     color: #000;
