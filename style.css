@@ -106,7 +106,7 @@ ul{
     width: 100%;
     flex-wrap: nowrap;
 }
-a{
+ .tipa_menu{
     color: #ff7abc;
     text-decoration: none;
 }
@@ -154,7 +154,7 @@ img{
     li{
         text-wrap: nowrap;
     }
-    a {
+    .tipa_menu{
         color: #ff7abc;
         text-decoration: none;
         background: #fff;
