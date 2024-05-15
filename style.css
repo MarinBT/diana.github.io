@@ -125,7 +125,7 @@ img{
         margin-top: 10%;
         text-shadow: 1px 1px pink;
         display: flex !important;
-        bottom: -324% !important;
+        bottom: -170rem !important;
         left: 42% !important;
         width: fit-content;
     }
