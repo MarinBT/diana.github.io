@@ -84,18 +84,20 @@ font-size: 150%;
     padding-left: 32px;
     background-repeat: no-repeat;
     background-position: left;
-}.level {
+}
+.level {
     margin: 4px 0 16px;
     padding: 0;
     height: 14px;
     font-size: 0;
     background-color: #ffffff;
-    border: 1px solid #86c3fa;
+    border: 1px solid #0079e6;
     border-radius: 8px;
-}.level div {
+}
+.level div {
     margin: 1px;
     height: 12px;
-    background-color: #288be6;
+    background-color: pink;
     border-radius: 6px;
 }
 ul{
@@ -242,6 +244,17 @@ gap: 3%;
     justify-content: center;
 }
 @media screen and (max-width:600px) {
+    .work_img {
+    width: fit-content;
+}
+    .works1 {
+    width: 390px;
+    border-radius: 10px;
+    border: 1px solid #020202;
+}
+.work_img img{
+    border-radius: 10px;
+}
     .works_main{
     display: flex;
 gap: 20px;
@@ -264,8 +277,9 @@ flex-direction: column;
 margin: -1% 0 3% 0;
 justify-content: center;
 }
-.work_img img{
-    border-radius: 10px;
+.work_img img {
+    width: 390px;
+    height: 390px;
 }
 #raboti{
     display: flex;
