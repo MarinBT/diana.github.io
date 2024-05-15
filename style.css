@@ -125,7 +125,7 @@ img{
         margin-top: 10%;
         text-shadow: 1px 1px pink;
         display: flex !important;
-        bottom: -170rem !important;
+        bottom: -182rem !important;
         left: 42% !important;
         width: fit-content;
     }
@@ -192,7 +192,7 @@ img{
         flex-wrap: nowrap;
         flex-direction: row;
         position: absolute;
-               transform: translate(-20%, 146px);
+               transform: translate(-12%, 146px);
     }
 }
 *{
