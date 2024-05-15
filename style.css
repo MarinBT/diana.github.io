@@ -239,11 +239,13 @@ font-size: 200%;
 .works_main{
     display: flex;
 gap: 3%;
+    justify-content: center;
 }
 @media screen and (max-width:600px) {
     .works_main{
     display: flex;
 gap: 3%;
+        justify-content: center;
 flex-direction: column;
 }
 }
