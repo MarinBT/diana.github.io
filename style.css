@@ -181,3 +181,115 @@ img{
         transform: translate(-35%, 146px);
     }
 }
+*{
+    width: -webkit-fill-available;
+}
+.works1{
+    width: 500px;
+border-radius: 10px;
+border: 1px solid #020202;
+}
+
+.work_button{
+    background: pink;
+margin-top: -17%;
+height: 6rem;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: flex-start;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+flex-direction: column;
+}
+.work_text{
+    display: flex;
+justify-content: center;
+}
+.work_img img{
+        width: 500px;
+        height: 500px;
+}
+
+.knopka{
+    width: 20%;
+border: 1px solid #ff8ea2;
+border-radius: 5px;
+padding: 4px;
+color: #523a3e;
+text-decoration: none;
+box-shadow: 0px 0px 7px 0px #ab5d9d;
+
+}
+.rabota_img{
+    width: 40%;
+}
+.body_rabota{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5rem;
+}
+.text_rabota{
+    display: flex;
+justify-content: center;
+padding: 0 20%;
+font-size: 200%;
+}
+.works_main{
+    display: flex;
+gap: 3%;
+}
+@media screen and (max-width:600px) {
+    .works_main{
+    display: flex;
+gap: 3%;
+flex-direction: column;
+}
+}
+.link:hover{
+    cursor: pointer;
+}
+.knopka{
+    transition: all 300ms ease-in-out;
+}
+.knopka:hover{
+    background: #ffdbe2;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+margin: -1% 0 3% 0;
+justify-content: center;
+}
+.work_img img{
+    border-radius: 10px;
+}
+#raboti{
+    display: flex;
+margin: 1%;
+justify-content: center;
+font-size: 300%;
+}
+.copyright{
+    position: absolute;
+bottom: 10px;
+left: 50%;
+font-weight: bold;
+margin-top: 3%;
+text-shadow: 1px 1px pink;
+}
+.ideal_work1{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+}
+.link_domoi {
+    width: fit-content;
+    text-decoration: none;
+    color: pink;
+    border: 1px solid pink;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 #d09ca5;
+}
