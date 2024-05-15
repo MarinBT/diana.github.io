@@ -274,6 +274,10 @@ gap: 20px;
         justify-content: center;
 flex-direction: column;
 }
+    .work_img img {
+    width: 390px;
+    height: 390px;
+}
 }
 .link:hover{
     cursor: pointer;
@@ -290,10 +294,7 @@ flex-direction: column;
 margin: -1% 0 3% 0;
 justify-content: center;
 }
-.work_img img {
-    width: 390px;
-    height: 390px;
-}
+
 #raboti{
     display: flex;
 margin: 1%;
